@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+// Grid
+
+.wrapper {
+  max-width: 500px;
+  margin: auto;
+}
+
+.fb {
+  display: flex;
+}
+
+.one-half {
+  width: 50%;
+}
+
+.button {
+  background: #2699FB;
+  color: #fff;
+  font-size: 12px;
+  text-transform: uppercase;
+  padding: 5px 10px;
+  width: 100px;
+  margin: 1em auto;
+}
+
+// Dashboard content
+.dashboard-content {
+  position: relative;
+  left: 150px;
+}

@@ -1,0 +1,32 @@
+// Login Page
+
+.login-container {
+    padding: 2em 6em;
+    border-right: 1px solid #ebebeb;
+}
+
+label {
+  display: block;
+  position: relative;
+  font-size: 10px;
+  padding-left: 30px;
+}
+
+input[type="text"] {
+  display: block;
+  width: 100%;
+  border: 0;
+  border-bottom: 1px solid #2699FB;
+  margin-bottom: 1em;
+  padding: 10px 0;
+
+  &:focus {
+    outline: none;
+  }
+
+  &[type="checkbox"] {
+    position: absolute;
+    left: 5px;
+    top: -2px;
+  }
+}
